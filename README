@@ -1,0 +1,9 @@
+Ray Tracer in a Weekend in Nim
+
+This uses Weave to parallelize the creation, which makes a big difference w.r.t to single threaded performance.
+
+
+To run:
+```
+nim c -r -d:danger examples/random.nim
+```
