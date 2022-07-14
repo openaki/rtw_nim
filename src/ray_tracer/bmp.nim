@@ -24,7 +24,7 @@ type
         #greeMask: int32
         #blueMask: int32
 
-proc writeBmpFile*(image: Image) =
+proc writeBmpFile*(image: Image, fileName: string) =
 
     let imageSize = image.size()
 
@@ -34,7 +34,7 @@ proc writeBmpFile*(image: Image) =
     header.imageOffset = cast[int32](sizeof(BitMapHeader))
     header.dibHeaderSize = sizeof(BitMapHeader) - 14
     header.width = cast[int32](image.width)
-    header.hegiht = cast[int32](image.height)
+    header.hegiht = cast[int32](image.height * -1)
     header.colorPanes = 1
     header.bitsPerPixel = 32 # rbga
     header.compression = 0
@@ -43,7 +43,7 @@ proc writeBmpFile*(image: Image) =
     #header.greeMask = 0x0000FF00
     #header.blueMask = 0x000000FF
 
-    var fp = open("test.bmp", fmWrite);
+    var fp = open(fileName, fmWrite);
     defer: fp.close()
     discard fp.writeBuffer(unsafeAddr(header), sizeof(header))
     #var x = cast[ptr UncheckedArray[uint8]](imageBuffer)

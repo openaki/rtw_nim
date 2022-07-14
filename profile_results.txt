@@ -1,0 +1,201 @@
+total executions of each stack trace:
+Entry: 1/37 Calls: 12528/38537 = 32.51% [sum: 12528; 12528/38537 = 32.51%]
+  vec3.nim: - 12577/38537 = 32.64%
+  sphere.nim: hit 37664/38537 = 97.73%
+  hittable.nim: hit 37664/38537 = 97.73%
+  hittable.nim: hit 37664/38537 = 97.73%
+  random.nim: ray_color 37901/38537 = 98.35%
+  random.nim: main 38536/38537 = 100.00%
+  random.nim: random 38536/38537 = 100.00%
+Entry: 2/37 Calls: 8383/38537 = 21.75% [sum: 20911; 20911/38537 = 54.26%]
+  vec3.nim: lengthSquared 8402/38537 = 21.80%
+  sphere.nim: hit 37664/38537 = 97.73%
+  hittable.nim: hit 37664/38537 = 97.73%
+  hittable.nim: hit 37664/38537 = 97.73%
+  random.nim: ray_color 37901/38537 = 98.35%
+  random.nim: main 38536/38537 = 100.00%
+  random.nim: random 38536/38537 = 100.00%
+Entry: 3/37 Calls: 4208/38537 = 10.92% [sum: 25119; 25119/38537 = 65.18%]
+  sphere.nim: hit 37664/38537 = 97.73%
+  hittable.nim: hit 37664/38537 = 97.73%
+  hittable.nim: hit 37664/38537 = 97.73%
+  random.nim: ray_color 37901/38537 = 98.35%
+  random.nim: main 38536/38537 = 100.00%
+  random.nim: random 38536/38537 = 100.00%
+Entry: 4/37 Calls: 4208/38537 = 10.92% [sum: 29327; 29327/38537 = 76.10%]
+  vec3.nim: dot 4208/38537 = 10.92%
+  sphere.nim: hit 37664/38537 = 97.73%
+  hittable.nim: hit 37664/38537 = 97.73%
+  hittable.nim: hit 37664/38537 = 97.73%
+  random.nim: ray_color 37901/38537 = 98.35%
+  random.nim: main 38536/38537 = 100.00%
+  random.nim: random 38536/38537 = 100.00%
+Entry: 5/37 Calls: 4170/38537 = 10.82% [sum: 33497; 33497/38537 = 86.92%]
+  hittable.nim: hit 37664/38537 = 97.73%
+  hittable.nim: hit 37664/38537 = 97.73%
+  random.nim: ray_color 37901/38537 = 98.35%
+  random.nim: main 38536/38537 = 100.00%
+  random.nim: random 38536/38537 = 100.00%
+Entry: 6/37 Calls: 4167/38537 = 10.81% [sum: 37664; 37664/38537 = 97.73%]
+  hittable.nim: hit 37664/38537 = 97.73%
+  random.nim: ray_color 37901/38537 = 98.35%
+  random.nim: main 38536/38537 = 100.00%
+  random.nim: random 38536/38537 = 100.00%
+Entry: 7/37 Calls: 129/38537 = 0.33% [sum: 37793; 37793/38537 = 98.07%]
+  vec3.nim: * 185/38537 = 0.48%
+  camera.nim: ray 499/38537 = 1.29%
+  random.nim: main 38536/38537 = 100.00%
+  random.nim: random 38536/38537 = 100.00%
+Entry: 8/37 Calls: 99/38537 = 0.26% [sum: 37892; 37892/38537 = 98.33%]
+  vec3.nim: + 124/38537 = 0.32%
+  camera.nim: ray 499/38537 = 1.29%
+  random.nim: main 38536/38537 = 100.00%
+  random.nim: random 38536/38537 = 100.00%
+Entry: 9/37 Calls: 56/38537 = 0.15% [sum: 37948; 37948/38537 = 98.47%]
+  vec3.nim: * 185/38537 = 0.48%
+  random.nim: ray_color 37901/38537 = 98.35%
+  random.nim: main 38536/38537 = 100.00%
+  random.nim: random 38536/38537 = 100.00%
+Entry: 10/37 Calls: 53/38537 = 0.14% [sum: 38001; 38001/38537 = 98.61%]
+  random.nim: rotl 85/38537 = 0.22%
+  random.nim: next 119/38537 = 0.31%
+  random.nim: rand 194/38537 = 0.50%
+  random.nim: rand 194/38537 = 0.50%
+  vec3.nim: random_in_unit_disk 171/38537 = 0.44%
+  camera.nim: ray 499/38537 = 1.29%
+  random.nim: main 38536/38537 = 100.00%
+  random.nim: random 38536/38537 = 100.00%
+Entry: 11/37 Calls: 49/38537 = 0.13% [sum: 38050; 38050/38537 = 98.74%]
+  vec3.nim: - 12577/38537 = 32.64%
+  camera.nim: ray 499/38537 = 1.29%
+  random.nim: main 38536/38537 = 100.00%
+  random.nim: random 38536/38537 = 100.00%
+Entry: 12/37 Calls: 49/38537 = 0.13% [sum: 38099; 38099/38537 = 98.86%]
+  random.nim: ray_color 37901/38537 = 98.35%
+  random.nim: main 38536/38537 = 100.00%
+  random.nim: random 38536/38537 = 100.00%
+Entry: 13/37 Calls: 43/38537 = 0.11% [sum: 38142; 38142/38537 = 98.98%]
+  vec3.nim: initVec 65/38537 = 0.17%
+  random.nim: ray_color 37901/38537 = 98.35%
+  random.nim: main 38536/38537 = 100.00%
+  random.nim: random 38536/38537 = 100.00%
+Entry: 14/37 Calls: 33/38537 = 0.09% [sum: 38175; 38175/38537 = 99.06%]
+  ray.nim: initRay 33/38537 = 0.09%
+  camera.nim: ray 499/38537 = 1.29%
+  random.nim: main 38536/38537 = 100.00%
+  random.nim: random 38536/38537 = 100.00%
+Entry: 15/37 Calls: 32/38537 = 0.08% [sum: 38207; 38207/38537 = 99.14%]
+  random.nim: rotl 85/38537 = 0.22%
+  random.nim: next 119/38537 = 0.31%
+  random.nim: rand 194/38537 = 0.50%
+  random.nim: rand 194/38537 = 0.50%
+  random.nim: main 38536/38537 = 100.00%
+  random.nim: random 38536/38537 = 100.00%
+Entry: 16/37 Calls: 29/38537 = 0.08% [sum: 38236; 38236/38537 = 99.22%]
+  system.nim: += 34/38537 = 0.09%
+  vec3.nim: += 34/38537 = 0.09%
+  random.nim: main 38536/38537 = 100.00%
+  random.nim: random 38536/38537 = 100.00%
+Entry: 17/37 Calls: 27/38537 = 0.07% [sum: 38263; 38263/38537 = 99.29%]
+  random.nim: rand 194/38537 = 0.50%
+  random.nim: rand 194/38537 = 0.50%
+  vec3.nim: random_in_unit_disk 171/38537 = 0.44%
+  camera.nim: ray 499/38537 = 1.29%
+  random.nim: main 38536/38537 = 100.00%
+  random.nim: random 38536/38537 = 100.00%
+Entry: 18/37 Calls: 27/38537 = 0.07% [sum: 38290; 38290/38537 = 99.36%]
+  vec3.nim: / 27/38537 = 0.07%
+  vec3.nim: unitVector 60/38537 = 0.16%
+  random.nim: ray_color 37901/38537 = 98.35%
+  random.nim: main 38536/38537 = 100.00%
+  random.nim: random 38536/38537 = 100.00%
+Entry: 19/37 Calls: 25/38537 = 0.06% [sum: 38315; 38315/38537 = 99.42%]
+  vec3.nim: + 124/38537 = 0.32%
+  random.nim: ray_color 37901/38537 = 98.35%
+  random.nim: main 38536/38537 = 100.00%
+  random.nim: random 38536/38537 = 100.00%
+Entry: 20/37 Calls: 23/38537 = 0.06% [sum: 38338; 38338/38537 = 99.48%]
+  random.nim: main 38536/38537 = 100.00%
+  random.nim: random 38536/38537 = 100.00%
+Entry: 21/37 Calls: 22/38537 = 0.06% [sum: 38360; 38360/38537 = 99.54%]
+  vec3.nim: initVec 65/38537 = 0.17%
+  vec3.nim: random_in_unit_disk 171/38537 = 0.44%
+  camera.nim: ray 499/38537 = 1.29%
+  random.nim: main 38536/38537 = 100.00%
+  random.nim: random 38536/38537 = 100.00%
+Entry: 22/37 Calls: 20/38537 = 0.05% [sum: 38380; 38380/38537 = 99.59%]
+  vec3.nim: random_in_unit_disk 171/38537 = 0.44%
+  camera.nim: ray 499/38537 = 1.29%
+  random.nim: main 38536/38537 = 100.00%
+  random.nim: random 38536/38537 = 100.00%
+Entry: 23/37 Calls: 20/38537 = 0.05% [sum: 38400; 38400/38537 = 99.64%]
+  vec3.nim: unitVector 60/38537 = 0.16%
+  random.nim: ray_color 37901/38537 = 98.35%
+  random.nim: main 38536/38537 = 100.00%
+  random.nim: random 38536/38537 = 100.00%
+Entry: 24/37 Calls: 19/38537 = 0.05% [sum: 38419; 38419/38537 = 99.69%]
+  random.nim: next 119/38537 = 0.31%
+  random.nim: rand 194/38537 = 0.50%
+  random.nim: rand 194/38537 = 0.50%
+  vec3.nim: random_in_unit_disk 171/38537 = 0.44%
+  camera.nim: ray 499/38537 = 1.29%
+  random.nim: main 38536/38537 = 100.00%
+  random.nim: random 38536/38537 = 100.00%
+Entry: 25/37 Calls: 17/38537 = 0.04% [sum: 38436; 38436/38537 = 99.74%]
+  random.nim: rand 194/38537 = 0.50%
+  vec3.nim: random_in_unit_disk 171/38537 = 0.44%
+  camera.nim: ray 499/38537 = 1.29%
+  random.nim: main 38536/38537 = 100.00%
+  random.nim: random 38536/38537 = 100.00%
+Entry: 26/37 Calls: 17/38537 = 0.04% [sum: 38453; 38453/38537 = 99.78%]
+  random.nim: rand 194/38537 = 0.50%
+  random.nim: main 38536/38537 = 100.00%
+  random.nim: random 38536/38537 = 100.00%
+Entry: 27/37 Calls: 15/38537 = 0.04% [sum: 38468; 38468/38537 = 99.82%]
+  random.nim: next 119/38537 = 0.31%
+  random.nim: rand 194/38537 = 0.50%
+  random.nim: rand 194/38537 = 0.50%
+  random.nim: main 38536/38537 = 100.00%
+  random.nim: random 38536/38537 = 100.00%
+Entry: 28/37 Calls: 14/38537 = 0.04% [sum: 38482; 38482/38537 = 99.86%]
+  random.nim: rand 194/38537 = 0.50%
+  random.nim: rand 194/38537 = 0.50%
+  random.nim: main 38536/38537 = 100.00%
+  random.nim: random 38536/38537 = 100.00%
+Entry: 29/37 Calls: 13/38537 = 0.03% [sum: 38495; 38495/38537 = 99.89%]
+  vec3.nim: lengthSquared 8402/38537 = 21.80%
+  vec3.nim: random_in_unit_disk 171/38537 = 0.44%
+  camera.nim: ray 499/38537 = 1.29%
+  random.nim: main 38536/38537 = 100.00%
+  random.nim: random 38536/38537 = 100.00%
+Entry: 30/37 Calls: 10/38537 = 0.03% [sum: 38505; 38505/38537 = 99.92%]
+  vec3.nim: [] 11/38537 = 0.03%
+  camera.nim: ray 499/38537 = 1.29%
+  random.nim: main 38536/38537 = 100.00%
+  random.nim: random 38536/38537 = 100.00%
+Entry: 31/37 Calls: 8/38537 = 0.02% [sum: 38513; 38513/38537 = 99.94%]
+  camera.nim: ray 499/38537 = 1.29%
+  random.nim: main 38536/38537 = 100.00%
+  random.nim: random 38536/38537 = 100.00%
+Entry: 32/37 Calls: 7/38537 = 0.02% [sum: 38520; 38520/38537 = 99.96%]
+  vec3.nim: length 13/38537 = 0.03%
+  vec3.nim: unitVector 60/38537 = 0.16%
+  random.nim: ray_color 37901/38537 = 98.35%
+  random.nim: main 38536/38537 = 100.00%
+  random.nim: random 38536/38537 = 100.00%
+Entry: 33/37 Calls: 6/38537 = 0.02% [sum: 38526; 38526/38537 = 99.97%]
+  vec3.nim: lengthSquared 8402/38537 = 21.80%
+  vec3.nim: length 13/38537 = 0.03%
+  vec3.nim: unitVector 60/38537 = 0.16%
+  random.nim: ray_color 37901/38537 = 98.35%
+  random.nim: main 38536/38537 = 100.00%
+  random.nim: random 38536/38537 = 100.00%
+Entry: 34/37 Calls: 5/38537 = 0.01% [sum: 38531; 38531/38537 = 99.98%]
+  vec3.nim: += 34/38537 = 0.09%
+  random.nim: main 38536/38537 = 100.00%
+  random.nim: random 38536/38537 = 100.00%
+Entry: 35/37 Calls: 4/38537 = 0.01% [sum: 38535; 38535/38537 = 99.99%]
+  vec3.nim: y 4/38537 = 0.01%
+  random.nim: ray_color 37901/38537 = 98.35%
+  random.nim: main 38536/38537 = 100.00%
+  random.nim: random 38536/38537 = 100.00%
