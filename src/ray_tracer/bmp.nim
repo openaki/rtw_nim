@@ -28,7 +28,7 @@ proc writeBmpFile*(image: Image, fileName: string) =
 
     let imageSize = image.size()
 
-    var header : BitMapHeader
+    var header: BitMapHeader
     header.magic = 0x4d42
     header.fileSize = cast[int32](imageSize + (sizeof(BitMapHeader)))
     header.imageOffset = cast[int32](sizeof(BitMapHeader))

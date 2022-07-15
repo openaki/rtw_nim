@@ -23,7 +23,8 @@ func add*(ls: var HittableList, t: HittableType) =
     ls.l.add(t)
 
 
-func hit*(t: HittableType, r: Ray, t_min, t_max: float64, h: var HitRecord, material: var MaterialType): bool =
+func hit*(t: HittableType, r: Ray, t_min, t_max: float64, h: var HitRecord,
+        material: var MaterialType): bool =
     case t.kind
     of SphereType: result = t.s.hit(r, t_min, t_max, h, material)
     of HittableListType:
@@ -38,7 +39,8 @@ func hit*(t: HittableType, r: Ray, t_min, t_max: float64, h: var HitRecord, mate
                 h = tempH
         result = hit_anything
 
-func hit*(ls: HittableList, r: Ray, t_min, t_max: float64, h: var HitRecord, m: var MaterialType): bool=
+func hit*(ls: HittableList, r: Ray, t_min, t_max: float64, h: var HitRecord,
+        m: var MaterialType): bool =
     var hit_anything = false
     var closest_yet = t_max
     var tempH: HitRecord
@@ -50,7 +52,8 @@ func hit*(ls: HittableList, r: Ray, t_min, t_max: float64, h: var HitRecord, m: 
     result = hit_anything
 
 
-func addSphere*(h: var HittableList, center: Vec3, radius: float64, m: MaterialType) =
+func addSphere*(h: var HittableList, center: Vec3, radius: float64,
+        m: MaterialType) =
     let s1 = Sphere(center: center, radius: radius, material: m)
-    h.add(HittableType(kind: SphereType, s:s1))
+    h.add(HittableType(kind: SphereType, s: s1))
 

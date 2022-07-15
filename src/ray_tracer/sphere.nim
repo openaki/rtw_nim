@@ -12,14 +12,15 @@ type
         material*: MaterialType
 
 
-func hit*(s: Sphere, r: Ray, t_min: float64, t_max: float64, rec: var HitRecord, material: var MaterialType): bool =
+func hit*(s: Sphere, r: Ray, t_min: float64, t_max: float64, rec: var HitRecord,
+        material: var MaterialType): bool =
     let oc = r.origin - s.center;
     let a = r.dir.length_squared();
     let half_b = dot(oc, r.dir);
     let c = oc.length_squared() - s.radius * s.radius;
 
     let discriminant = half_b*half_b - a*c;
-    if (discriminant < 0) :
+    if (discriminant < 0):
         return false;
     let sqrtd = sqrt(discriminant)
 

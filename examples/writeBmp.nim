@@ -9,9 +9,9 @@ proc testImage() =
     var image = newImage(iH, iW)
 
     # Fill up the image
-    var imageX:int
+    var imageX: int
     for j in countdown(iH-1, 0):
-        var imageY:int
+        var imageY: int
         for i in countup(0, iw-1):
             let c = initVec(i/iW, j/ih, 0.25)
             #var c = initVec(0, 1, 0)
